@@ -102,6 +102,11 @@ a {
   grid-area: div1_2;
 }
 
+.div1_2 .img {
+  background: url("./images/2-progress-steps.png");
+  background-size: cover;
+}
+
 .div1_3 {
   grid-area: div1_3;
 }
