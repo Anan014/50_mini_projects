@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  height: 100vh;
+  width: 90vw;
+  margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+  display: flex;
+  border: green solid 1px;
+}
+
+.live_demo {
+  width: auto;
+  cursor: pointer;
+}
+
+.grid_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  height: 33.3%;
+  width: 100%;
+}
+
+.img {
+  height: 66.6%;
+  width: 100%;
+}
+
+.live_demo_btn {
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.08rem;
+  background: lightgray;
+  border-radius: 5px;
+  border: 0px;
+}
+
+
+.live_demo_btn:hover {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.9rem;
+  letter-spacing: 0.08rem;
+  background: lightblue;
+  border-radius: 5px;
+}
+
+.projects_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "div1_1 div1_2 div1_3 div1_4 div1_5"
+    "div2_1 div2_2 div2_3 div2_4 div2_5"
+    "div3_1 div3_2 div3_3 div3_4 div3_5"
+    "div4_1 div4_2 div4_3 div4_4 div4_5"
+    "div5_1 div5_2 div5_3 div5_4 div5_5"
+    "div6_1 div6_2 div6_3 div6_4 div6_5"
+    "div7_1 div7_2 div7_3 div7_4 div7_5"
+    "div8_1 div8_2 div8_3 div8_4 div8_5"
+    "div9_1 div9_2 div9_3 div9_4 div9_5"
+    "div10_1 div10_2 div10_3 div10_4 div10_5";
+  grid-gap: 1rem;
+  margin: auto;
+}
+
+.projects_grid > div {
+  border: 1px solid red;
+  height: 15vw;
+  width: 15vw;
+}
+
+.div1_1 {
+  grid-area: div1_1;
+}
+
+.div1_1 .img {
+  background: url("./images/1-expanding-cards.png");
+  background-size: cover;
+}
+
+.div1_2 {
+  grid-area: div1_2;
+}
+
+.div1_3 {
+  grid-area: div1_3;
+}
+
+.div1_4 {
+  grid-area: div1_4;
+}
+
+.div1_5 {
+  grid-area: div1_5;
+}
+
+.div2_1 {
+  grid-area: div2_1;
+}
+
+.div2_2 {
+  grid-area: div2_2;
+}
+
+.div2_3 {
+  grid-area: div2_3;
+}
+
+.div2_4 {
+  grid-area: div2_4;
+}
+
+.div2_5 {
+  grid-area: div2_5;
+}
+
+.div3_1 {
+  grid-area: div3_1;
+}
+
+.div3_2 {
+  grid-area: div3_2;
+}
+
+.div3_3 {
+  grid-area: div3_3;
+}
+
+.div3_4 {
+  grid-area: div3_4;
+}
+
+.div3_5 {
+  grid-area: div3_5;
+}
+
+.div4_1 {
+  grid-area: div4_1;
+}
+
+.div4_2 {
+  grid-area: div4_2;
+}
+
+.div4_3 {
+  grid-area: div4_3;
+}
+
+.div4_4 {
+  grid-area: div4_4;
+}
+
+.div4_5 {
+  grid-area: div4_5;
+}
+
+.div5_1 {
+  grid-area: div5_1;
+}
+
+.div5_2 {
+  grid-area: div5_2;
+}
+
+.div5_3 {
+  grid-area: div5_3;
+}
+
+.div5_4 {
+  grid-area: div5_4;
+}
+
+.div5_5 {
+  grid-area: div5_5;
+}
+
+.div6_1 {
+  grid-area: div6_1;
+}
+
+.div6_2 {
+  grid-area: div6_2;
+}
+
+.div6_3 {
+  grid-area: div6_3;
+}
+
+.div6_4 {
+  grid-area: div6_4;
+}
+
+.div6_5 {
+  grid-area: div6_5;
+}
+
+.div7_1 {
+  grid-area: div7_1;
+}
+
+.div7_2 {
+  grid-area: div7_2;
+}
+
+.div7_3 {
+  grid-area: div7_3;
+}
+
+.div7_4 {
+  grid-area: div7_4;
+}
+
+.div7_5 {
+  grid-area: div7_5;
+}
+
+.div8_1 {
+  grid-area: div8_1;
+}
+
+.div8_2 {
+  grid-area: div8_2;
+}
+
+.div8_3 {
+  grid-area: div8_3;
+}
+
+.div8_4 {
+  grid-area: div8_4;
+}
+
+.div8_5 {
+  grid-area: div8_5;
+}
+
+.div9_1 {
+  grid-area: div9_1;
+}
+
+.div9_2 {
+  grid-area: div9_2;
+}
+
+.div9_3 {
+  grid-area: div9_3;
+}
+
+.div9_4 {
+  grid-area: div9_4;
+}
+
+.div9_5 {
+  grid-area: div9_5;
+}
+
+.div10_1 {
+  grid-area: div10_1;
+}
+
+.div10_2 {
+  grid-area: div10_2;
+}
+
+.div10_3 {
+  grid-area: div10_3;
+}
+
+.div10_4 {
+  grid-area: div10_4;
+}
+
+.div10_5 {
+  grid-area: div10_5;
+}
